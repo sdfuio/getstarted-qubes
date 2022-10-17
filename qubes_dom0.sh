@@ -1,9 +1,13 @@
 
 # untrusted qube
-git clone https://github.com/sdfuio/first-shellscript
+# git clone https://github.com/sdfuio/first-shellscript
 
-# dom0
+
+###########################################
+# copy qubes_dom0.sh to dom0
+###########################################
 qvm-run --pass-io untrusted 'cat /home/user/first-shellscript/qubes_dom0.sh' >  ~/qubes_dom0.sh
+
 
 ###########################################
 # create debian-11-dvm (disposable template)
