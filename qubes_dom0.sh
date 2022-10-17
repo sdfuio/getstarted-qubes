@@ -26,4 +26,14 @@ qvm-features ${dbndvm} appmenus-dispvm 1
 # see https://forum.qubes-os.org/t/how-can-i-create-a-new-disposable-in-4-1-debian-based/10418/5
 
 
+# copy screenshots to another VM
+qvm-copy-to-vm personal Pictures/Screenshot*.png
+
+
+
+
+
+
+
+
 
