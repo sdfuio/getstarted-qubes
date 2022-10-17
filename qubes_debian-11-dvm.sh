@@ -1,5 +1,5 @@
 ###############
-# off line
+# edit "template disp debian-xx-dvm" offline
 ################
 
 # japanese IME
