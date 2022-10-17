@@ -1,6 +1,6 @@
 
 # untrusted qube
-# git clone https://github.com/sdfuio/first-shellscript
+# git clone https://github.com/sdfuio/getstarted-qubes
 
 
 ###########################################
