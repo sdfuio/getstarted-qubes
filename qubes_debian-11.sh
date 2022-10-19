@@ -11,4 +11,7 @@ sudo apt-get install -y gcc-mingw-w64-x86-64 g++-mingw-w64-x86-64 mingw-w64-tool
 # dictionary
 sudo apt install dict goldendict 
 
+# media player
+sudo apt install vlc
+
 
