@@ -6,7 +6,7 @@
 ###########################################
 # copy qubes_dom0.sh to dom0
 ###########################################
-qvm-run --pass-io untrusted 'cat /home/user/first-shellscript/qubes_dom0.sh' >  ~/qubes_dom0.sh
+qvm-run --pass-io untrusted 'cat /home/user/getstarted-qubes/qubes_dom0.sh' >  ~/qubes_dom0.sh
 
 
 ###########################################
