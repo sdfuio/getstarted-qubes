@@ -15,5 +15,6 @@ cd libaacs
 ./bootstrap
 ./configure
 make
+make install
 
 
