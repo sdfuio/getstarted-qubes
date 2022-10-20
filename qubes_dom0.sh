@@ -32,7 +32,7 @@ qvm-copy-to-vm personal Pictures/Screenshot*.png
 
 
 #############################################
-# create windows qube
+# create windows-mgmt
 #============================================
 
 # https://github.com/elliotkillick/qvm-create-windows-qube
@@ -44,6 +44,16 @@ qvm-run -p --filter-escape-chars --no-color-output untrusted "cat '/home/user/Do
 chmod +x install.sh && ./install.sh
 
 
+
+#############################################
+# create windows qube
+#============================================
+
+# launch disposable VM and download win10x64.iso
+# place it into /home/user/Documents/qvm-create-windows-qube/windows-media/isos in windows-mgmt
+
+qvm-create-windows-qube -n sys-firewall -oyp firefox,notepadplusplus,office365proplus -i win10x64.iso -a win10x64-pro.xml work-win10
+qvm-create-windows-qube -n sys-firewall -oyp steam -i win10x64.iso -a win10x64-pro.xml game-console
 
 
 
