@@ -1,0 +1,5 @@
+
+im-config
+ibus-setup
+
+
