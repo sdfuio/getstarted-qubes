@@ -15,9 +15,8 @@ firefox about:logins
 # hosts
 ###################
 
-# launch untrusted vm
-# curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts -O hosts
-# qvm-copy-to-vm debian-11-dvm hosts
+# launch dom0 terminal
+# qvm-run --dispvm=debian-11-dvm  'curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts -O hosts && qvm-move-to-vm debian-11-dvm hosts'
 
 cp ~/QubesIncoming/untrusted/hosts /etc/hosts
 
