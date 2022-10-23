@@ -33,4 +33,4 @@ qvm-service sys-vpn network-manager true
 
 # in sys-vpn:
 # protonvpn-cli login {{ username }}
-# protonvpn-cli connect --fastest --protocol u
+# protonvpn-cli connect --fastest --protocol udp
