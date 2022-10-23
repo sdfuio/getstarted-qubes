@@ -10,7 +10,7 @@ qvm-clone fedora-36-minimal fedora-36-minimal-sys-vpn
 # mkdir ~/temp && cd ~/temp
 # curl --remote-name --remote-header-name --proxy http://127.0.0.1:8082 https://protonvpn.com/download/protonvpn-stable-release-1.0.0-1.noarch.rpm
 
-qvm-run -u root fedora-36-minimal-sys-vpn xterm
+qvm-run -u root fedora-36-minimal-sys-vpn xterm &
 
 # in fedora-36-minimal-sys-vpn:
 # mv /home/user/temp/etc/yum.repos.d/protonvpn-stable-f33.repo /etc/yum.repos.d/
@@ -25,9 +25,9 @@ qvm-prefs sys-vpn autostart true
 qvm-prefs sys-vpn netvm sys-firewall
 qvm-prefs sys-vpn provides_network true
 qvm-service sys-vpn network-manager true
-qvm-prefs sys-vpn template_for_dispvms true
+qvm-prefs sys-vpn template_for_dispvms truedp
+
 
 # in sys-vpn:
 # protonvpn-cli login {{ username }}
-# protonvpn-cli connect --fastest --protocol udp
-
+# protonvpn-cli connect --fastest --protocol u
