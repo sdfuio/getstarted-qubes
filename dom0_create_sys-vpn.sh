@@ -20,12 +20,11 @@ qvm-run -u root fedora-36-minimal-sys-vpn xterm &
 # dnf install protonvpn qubes-core-agent-networking qubes-core-agent-network-manager network-manager-applet notification-daemon  NetworkManager-openvpn-gnome gnome-keyring
 
 # create sys-vpn
-qvm-create --template fedora-36-minimal-sys-vpn --label green sys-vpn
+qvm-create -C DispVM -l green -t fedora-34-minimal-dvm sys-vpn
 qvm-prefs sys-vpn autostart true
 qvm-prefs sys-vpn netvm sys-firewall
 qvm-prefs sys-vpn provides_network true
 qvm-service sys-vpn network-manager true
-qvm-prefs sys-vpn template_for_dispvms truedp
 
 
 # in sys-vpn:
