@@ -1,8 +1,11 @@
 
-https://www.reddit.com/r/Qubes/comments/o3pykx/guide_how_to_setup_protonvpn_in_qubes/
+# https://www.reddit.com/r/Qubes/comments/o3pykx/guide_how_to_setup_protonvpn_in_qubes/
 
-qvm-run -u root fedora-34-minimal-sys-vpn xterm 
-mv ~/temp/etc/yum.repos.d/protonvpn-stable-f33.repo /etc/yum.repos.d/
+sudo qubes-dom0-update qubes-template-fedora-36-minimal
+qvm-run -u root fedora-36-minimal-sys-vpn xterm
+
+# in fedora-36-minimal-sys-vpn:
+# mv /home/user/temp/etc/yum.repos.d/protonvpn-stable-f33.repo /etc/yum.repos.d/
 
 
 
