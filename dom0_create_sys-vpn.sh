@@ -3,6 +3,8 @@
 
 sudo qubes-dom0-update qubes-template-fedora-36-minimal
 qvm-clone fedora-36-minimal fedora-36-minimal-sys-vpn
+qvm-prefs fedora-36-minimal-sys-vpn template_for_dispvms true
+
 
 # in fedora-36-minimal-sys-vpn:
 # mkdir ~/temp && cd ~/temp
@@ -23,7 +25,7 @@ qvm-prefs sys-vpn autostart true
 qvm-prefs sys-vpn netvm sys-firewall
 qvm-prefs sys-vpn provides_network true
 qvm-service sys-vpn network-manager true
-qvm-prefs sys-vpn template_for_dispvms true
+
 
 # in sys-vpn:
 # protonvpn-cli login {{ username }}
