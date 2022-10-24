@@ -21,6 +21,11 @@ sudo apt install  python3-scipy python3-numpy python3-pandas
 # C++ IDE
 sudo apt install codeblocks
 
+# html editor
+sudo apt -y install bluefish
+
+
+
 
 
 
@@ -53,6 +58,15 @@ sudo apt install calibre
 # Japanese IME
 sudo apt install ibus-mozc
 
+# Japanese fonts
+sudo apt -y install fonts-takao
+
+
+# office
+sudo apt -y install libreoffice
+
+
+
 
 ###########################################
 # security
@@ -73,9 +87,16 @@ sudo apt install vlc
 
 # graphics
 sudo apt install gimp inkscape
+sudo apt -y install blender
 
 # burnDVD
 sudo apt install brasero
+
+
+
+# audio
+sudo apt -y install audacious audacity 
+
 
 
 # youtube-dl
@@ -106,6 +127,8 @@ sudo apt install pdfgrep
 sudo apt install whois
 
 
+# partition editor
+sudo apt -y install gparted
 
 
 # 
