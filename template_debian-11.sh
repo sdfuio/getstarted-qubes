@@ -15,17 +15,40 @@ sudo apt-get install -y autoconf
 
 # python
 sudo apt install python3
+sudo apt install spyder
+sudo apt install  python3-scipy python3-numpy python3-pandas
+
+
+
+
+#######################
+# internet
+#=========================
+
+#  
+sudo apt install torbrowser-launcher
+
 
 
 # dictionary
 sudo apt install dict goldendict 
 
 
+
+
+
+#######################
+# media
+#=========================
+
 # media player
 sudo apt install vlc
 
 # graphics
 sudo apt install gimp inkscape
+
+# burnDVD
+sudo apt install brasero
 
 
 # 
