@@ -50,6 +50,18 @@ sudo apt-get install espeak
 #  ebook reader
 sudo apt install calibre
 
+# Japanese IME
+sudo apt install ibus-mozc
+
+
+###########################################
+# security
+#========================================
+
+sudo apt install keepassxc
+sudo apt install wireshark
+
+
 
 
 #######################
@@ -73,6 +85,10 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 sudo wget https://yt-dl.org/downloads/latest/youtube-dl.sig -O youtube-dl.sig
 gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
 rm youtube-dl.sig
+
+# pdf viewer
+sudo apt install evince 
+
 
 
 #######################
