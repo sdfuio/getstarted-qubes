@@ -29,7 +29,10 @@ sudo apt install codeblocks
 # internet
 #=========================
 
-#  
+# chromium
+sudo apt install chromium-browser
+
+# torbrowser
 sudo apt install torbrowser-launcher
 
 
@@ -37,7 +40,8 @@ sudo apt install torbrowser-launcher
 # dictionary
 sudo apt install dict goldendict 
 
-
+# text-to-speech
+sudo apt-get install espeak
 
 
 
@@ -64,6 +68,28 @@ gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
 rm youtube-dl.sig
 
 
+#######################
+# system
+#=========================
+
+# virtualbox
+sudo apt install virtualbox
+
+# cpu-x
+sudo apt install cpu-x
+
+# bash command
+sudo apt install pdfgrep
+sudo apt install whois
+
+
+
+#########################################################
+#  ebook reader
+#========================================================
+
+sudo apt install calibre
+
 
 # 
 sudo apt install -y libtool
@@ -71,8 +97,6 @@ sudo apt-get install -y libgcrypt-dev
 sudo apt-get install -y bison
 sudo apt-get install -y byacc
 sudo apt-get install -y flex
-
-
 
 # hosts
 # in dispxxxx: curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts -O hosts && qvm-copy-to-vm hosts debian-11
