@@ -18,6 +18,10 @@ sudo apt install python3
 sudo apt install spyder
 sudo apt install  python3-scipy python3-numpy python3-pandas
 
+# C++ IDE
+sudo apt install codeblocks
+
+
 
 
 
@@ -49,6 +53,16 @@ sudo apt install gimp inkscape
 
 # burnDVD
 sudo apt install brasero
+
+
+# youtube-dl
+sudo apt update && sudo apt install ffmpeg
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl.sig -O youtube-dl.sig
+gpg --verify youtube-dl.sig /usr/local/bin/youtube-dl
+rm youtube-dl.sig
+
 
 
 # 
