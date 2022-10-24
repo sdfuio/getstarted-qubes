@@ -131,12 +131,6 @@ sudo apt install whois
 sudo apt -y install gparted
 
 
-# 
-sudo apt install -y libtool
-sudo apt-get install -y libgcrypt-dev
-sudo apt-get install -y bison
-sudo apt-get install -y byacc
-sudo apt-get install -y flex
 
 # hosts
 # in dispxxxx: curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts -O hosts && qvm-copy-to-vm hosts debian-11
