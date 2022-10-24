@@ -36,12 +36,19 @@ sudo apt install chromium-browser
 sudo apt install torbrowser-launcher
 
 
+#######################
+# tool
+#=========================
 
 # dictionary
 sudo apt install dict goldendict 
 
 # text-to-speech
 sudo apt-get install espeak
+
+
+#  ebook reader
+sudo apt install calibre
 
 
 
@@ -83,12 +90,6 @@ sudo apt install pdfgrep
 sudo apt install whois
 
 
-
-#########################################################
-#  ebook reader
-#========================================================
-
-sudo apt install calibre
 
 
 # 
