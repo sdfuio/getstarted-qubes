@@ -1,6 +1,13 @@
 qvm-volume extend debian-11-dvm:private 10G
 
-qvm-run debian-10-dvm vlc # initial setting 
+
+
+#######################
+# offline 
+#======================
+
+# initial setting 
+qvm-run debian-10-dvm vlc 
 
 qvm-run debian-10-dvm gnome-terminal
 # debian-10-dvm 
@@ -8,5 +15,6 @@ qvm-run debian-10-dvm gnome-terminal
 # ibus-setup # add japanese
 # qvm-shutdown debian-10-dvm
 
-# firefox
+# save login passwords
 qvm-run debian-11-dvm firefox about:logins
+
