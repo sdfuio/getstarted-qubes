@@ -5,7 +5,7 @@
 # https://www.qubes-os.org/doc/disposable-customization/
 
 # VMs
-usbtmp='fedora-35-dvm'
+usbtmp='fedora-36-dvm'
 newusb='disp-sys-usb'
 
 qvm-create --template ${usbtmp} --class DispVM --label red ${newusb}
