@@ -8,4 +8,5 @@ qvm-run debian-10-dvm gnome-terminal
 # ibus-setup # add japanese
 # qvm-shutdown debian-10-dvm
 
-
+# firefox
+qvm-run debian-11-dvm firefox about:logins
