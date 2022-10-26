@@ -2,7 +2,7 @@
 # Use disp-sys-usb instead of sys-usb
 #======================================
 
-usbtmp='fedora-35-dvm'
+usbtmp='fedora-36-dvm'
 newusb='disp-sys-usb'
 oldusb='sys-usb'
 
