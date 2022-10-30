@@ -19,7 +19,7 @@ sudo sed -i 's/^sys-usb/^sys-usb1/g'  /etc/qubes-rpc/policy/qubes.InputMouse
 # 
 qvm-prefs ${oldusb} autostart false
 
-# detach old USB qube from USB controller
+# detach USB controller from old USB qube
 qvm-shutdown ${oldusb}
 read -p "if you already unplug all cables from USB ports, press enter: "
 qvm-pci detach ${oldusb} ${usb_bdf}
