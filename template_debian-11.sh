@@ -18,7 +18,7 @@
 #======================================================
 
 # in dispxxxx: 
-# curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts && qvm-copy-to-vm debian-11 hosts
+# curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts -o hosts && qvm-copy-to-vm debian-11 hosts
 
 # in debian-11
 # sudo cp ~/QubesIncoming/disp*/hosts /etc/
