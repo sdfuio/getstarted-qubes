@@ -16,7 +16,7 @@ qvm-pci attach --persistent ${newusb} ${usb_bdf}
 qvm-prefs ${newusb} autostart true
 
 # edit qubes.InputMouse
-sudo sed -i 's/^sys-usb/sys-usb1/g'  /etc/qubes-rpc/policy/qubes.InputMouse
+sudo sed -i 's/^sys-usb /sys-usb1 /g'  /etc/qubes-rpc/policy/qubes.InputMouse
 
 # old usb qube will not start automatically
 qvm-prefs ${oldusb} autostart false
