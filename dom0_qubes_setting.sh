@@ -20,3 +20,6 @@ qvm-volume extend personal:private 5G
 qvm-volume extend sys-usb:private 10G
 qvm-prefs  personal netvm none # default
 
+# whonix-ws-16-dvm
+qvm-volume extend whonix-ws-16-dvm:private 6G
+qvm-prefs whonix-ws-16-dvm memory 1000
